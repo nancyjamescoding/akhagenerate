@@ -1,5 +1,11 @@
-
-  
+.heading {
+    font-size: 36px;
+    padding-top: 20px;
+    text-align: center;
+    color:black;
+    margin: 20px;
+    border: 2px;
+  }
   
 .form-style {
     width: 50%;
