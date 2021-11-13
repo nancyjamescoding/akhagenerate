@@ -13,16 +13,11 @@ function getName(){
         and your akhan name is ${maleNames[dayNumber]}`
     
     } 
-    if (gender == 'Female'){
+    else {
         result = `You were born on ${ daysOfWeek[dayNumber]} 
         and your akhan name is ${femaleNames[dayNumber]}`
     
     } 
+
     document.getElementById('result').innerHTML = result
 }
-function getName(){
-    let birthday = document.getElementById('birthday').value;
-    let gender = document.getElementById('gender').value;
-    let dayNumber = new Date(birthday).getDay();
-    let result = ''
-
