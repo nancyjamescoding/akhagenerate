@@ -20,4 +20,4 @@ function getName(){
     } 
     document.getElementById('result').innerHTML = result
 }
-
+et maleNames = ['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwake']
