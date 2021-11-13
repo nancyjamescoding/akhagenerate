@@ -1,0 +1,44 @@
+.heading {
+    font-size: 36px;
+    padding-top: 20px;
+    text-align: center;
+    color:black;
+    margin: 20px;
+    border: 2px;
+  }
+  
+.form-style {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    font-weight: bold;
+}
+body{
+    background-image: url('../images/akhan.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.paragraph{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    font-size: large;
+    /* background-color:lightblue;  */
+}
+.result{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:bisque;
+    margin-top: 20px;
+}

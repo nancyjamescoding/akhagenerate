@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Akhan Name Generator Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Akhan Name Generator</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-    
+ <body>
+
+    <h1 class="heading">Welcome to Akhan Name Generator Landing Page</h1>
+    <div class="paragraph">
+        <p>  
+            This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+            Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+        </p>
+    </div>
+    <div class="form-style">
+        <div class="form-group">
+            <label for="birthday">Birth Day</label>
+            <input class="form-control form-control-lg" id="birthday" type="text" placeholder="YYYY/MM/DD">
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender</label>
+            <select class="form-control form-control-lg" id=  "gender">
+                <option selected>Please Select Your Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        <div class="button"><button type="submit" class="btn btn-success" onclick="getName()">Submit</button>
+        </div>
+        <div class= "result">  
+            <p id = display-name><strong>Your Akan name will be displayed below:</strong></p>
+            <p id="result"></p>
+        </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src='./js/script.js'></script> 
 </body>
 </html>
