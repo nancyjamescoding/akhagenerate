@@ -20,4 +20,9 @@ function getName(){
     } 
     document.getElementById('result').innerHTML = result
 }
-et maleNames = ['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwake']
+function getName(){
+    let birthday = document.getElementById('birthday').value;
+    let gender = document.getElementById('gender').value;
+    let dayNumber = new Date(birthday).getDay();
+    let result = ''
+
