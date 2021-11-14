@@ -10,3 +10,11 @@
 * Enter your birthday through a form 
 * Choose what your gender 
 * Click the submit button to see what your Akan name would be
+
+### TECHNOLOGIES USED
+    * HTML
+    * CSS (Bootstrap)
+    * JS
+
+### Setup Process
+ * Clone this repository to a location in your file system    
