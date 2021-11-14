@@ -25,4 +25,4 @@
    MIT
 
 ### Contacts
-    nancynyokabi@gmail.com
+    nancynyokabi@gmail.com nancyndung'u@studengt
