@@ -25,4 +25,4 @@
    MIT
 
 ### Contacts
-    nancynyokabi@gmail.com nancyndung'u@studengt
+   nancy.ndung'u@student.moringaschool.com
