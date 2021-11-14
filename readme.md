@@ -17,4 +17,12 @@
     * JS
 
 ### Setup Process
- * Clone this repository to a location in your file system    
+   * Clone this repository to a location in your file system https://github.com/nancyjamescoding/akhagenerate.git
+   * Open terminal command line then navigate to the root folder of the application cd akhagenerate
+   * Open index.html on your Browser.
+
+### Lisence 
+   MIT
+
+### Contacts
+    nancynyokabi@gmail.com
