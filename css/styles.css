@@ -6,6 +6,11 @@
     margin: 20px;
     border: 2px;
   }
+
+  .error {
+      background-color: red;
+      color: white;
+  }
   
 .form-style {
     width: 50%;
@@ -14,6 +19,12 @@
     font-size: large;
     font-weight: bold;
 }
+
+input[type=date] {
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
 body{
     background-image: url('../images/akhan.jpeg');
     background-repeat: no-repeat;
