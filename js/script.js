@@ -41,9 +41,3 @@ function getName(){
     }
 }
     
-
-
-document.getElementById('result').innerHTML = result
-    } else {
-        document.getElementById('error-message').innerHTML = validation[1]
-    }
