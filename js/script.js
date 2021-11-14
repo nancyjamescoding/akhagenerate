@@ -10,7 +10,6 @@ function isValid(birthday, gender) {
         error = true
         errors += 'Please enter a date. '
     } 
-
     if (!genderOptions.includes(gender)){
         error = true
         errors += 'Gender must be Female or Male'
